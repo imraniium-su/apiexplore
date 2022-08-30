@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .post1 {
+            background-color: aqua;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>All post Here</h1>
+    </header>
+
+    <section>
+        <h3>Post here</h3>
+        <div id="post-input">
+
+        </div>
+    </section>
+    <section>
+        <h1>All todos here</h1>
+        <div id="todo-continer">
+
+        </div>
+
+    </section>
+    <section>
+        <h1>All comments</h1>
+        <div id="comment-continer">
+
+        </div>
+    </section>
+
+    <button onclick="loadData()">Load Data</button>
+    <button onclick="loadData2()">Load Data</button>
+    <button onclick="loudusers2()">Name</button>
+    <button onclick="louad3()">Email</button>
+    <button onclick="createpost()">creat post</button>
+    <button onclick="deletepost()">Delete post</button>
+    <button onclick="patchpost()">update post</button>
+
+    <div id="user-continer">
+        <ul id="user-list">
+
+        </ul>
+        <ol id="user-email">
+
+        </ol>
+    </div>
+
+
+
+
+    <script src="fetch.js"></script>
+    <script src="app.js"></script>
+    <script src="todos.js"></script>
+    <script src="comments.js"></script>
+</body>
+
+</html>
